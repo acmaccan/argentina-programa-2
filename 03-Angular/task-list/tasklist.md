@@ -26,3 +26,8 @@ Las variables que comienzan con @ son decoradores.
 @Input -> Pasamos contenido dinámico de padres a hijos
 @Output -> Pasamos contenido dinámico de hijos a padres
 Este proceso de paso de información de manera dinámica se llama binding. Puede ser unidireccional (one way binding) o hacia ambos lados (two way binding).
+
+## Mockear tasks
+En src/app creamos mock.tasks.ts con un arreglo para emular una base de datos
+
+En src/app creamos Task.ts para manejar la interface. Gracias a las interfaces mejoramos la consistencia de nuestros datos.
